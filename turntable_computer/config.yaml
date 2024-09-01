@@ -1,0 +1,7 @@
+output_folder: /home/mpr/Documents/Projects_new/1_Initial/2024_Turntable/outputs
+pre_foto_sleep: 0.5  # seconds
+end_position: 14266  # in steps
+
+serial_settings:
+  port: /dev/ttyACM0
+  baud_rate: 115200
