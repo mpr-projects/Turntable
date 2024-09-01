@@ -1,1 +1,2 @@
 # Turntable
+This repository is part of a project about 3D-Reconstructions, see https://youtu.be/CPj8vRa3ZhE for an overview of the project. The stl-files can be 3D-printed. I used a NEMA 17 stepper from Minebea with a square (3mm) shaft. You may need to adjust the files if your stepper is different (e.g. using blender). The code uses mostly standard packages. The only non-standard packages is the 'inputs' Python package which is used if a gamepad is connected to your computer (you probably have to go through the code and adjust it to your setup).
