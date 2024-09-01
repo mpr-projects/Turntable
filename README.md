@@ -1,1 +1,8 @@
-# Turntable
+## Turntable
+This repository is part of a project about 3D-Reconstructions, see https://youtu.be/CPj8vRa3ZhE for an overview of the project and https://youtu.be/pe0pf9I_Xvc for the video about building the turntable. A large part of the turntable consists of 3d-printed parts, which can be found in the 'stl' directory. I used a NEMA 17 stepper from Minebea with a square (3mm) shaft. You may need to adjust the files if your stepper is different (e.g. using blender). I will upload the FreeCAD files I used to design the models when/if I ever get around to cleaning them up a bit.
+
+The 'turntable' directory contains the code for the Arduino. The 'turntable_computer' directory contains the Python code to run on your computer. The code uses mostly standard packages. The only non-standard packages is the 'pyserial' Python package which is used to communicate with the Arduino. You'll also need gphoto2 if you want your computer to automatically take pictures. I haven't written extra documentation for the code but it's a small codebase and there are lot's of comments which should (hopefully) make everything clear. You'll probably have to go through the code and adjust it to your specific setup (e.g. which PINs are used on the Arduino, which settings to apply to your camera, ...).
+
+There are a few functions in the code that aren't actually used by the turntable (I hope that's not too confusing). That's because I first wrote the code for the big machine and then I took that and simplified it for the turntable. But I'm sure I didn't remove all unused functions, especially in the code for the Arduino.
+
+Feel free to use the code for your own projects, it's licensed under the creative commons license CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).
